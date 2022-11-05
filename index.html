@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="uk">        
+    <head>              
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Evgeniy Svyatenko">
+        <meta name="description" content="Мое первое резюме HTML5 CSS3. WEB">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/icons/icon.ico">
+        <link rel="stylesheet" href="style.css">
+        <title>Сайт Резюме</title>
+    </head> 
+    <body>            
+        <header>        
+            <h1 class="portfolio-text"> Curriculum vitae </h1>
+            <address style="font-weight:bold ;">
+                <div class="address">
+                    <span>Країна:<span> Україна</span></span><br>
+                    <span>Місто:<span> Харків</span></span><br>
+                    <span>Мій номер:<span> +380681944541</span></span><br>               
+                </div>
+            </address>
+            <hr id="liniya">
+        </header>
+        <main role="main">          
+            <div class="leftCol"><br>
+                <section>
+                    <aside>
+                        <details>  
+                           <summary style="font-weight: bold;"><big>Авторізація</big></summary> 
+                            <form class="enter-form" action="auth.html" method="post" autocomplete="on">      
+                                <input type="text" name="name" id="inputFormName" placeholder="Сюди писать ім'я"><br>
+                                <input type="password" name="pw" id="inputFormPassworld" placeholder="А сюди пароль"><br>
+                                <input type="submit" name="register" id="inputFormRegister" value="Реєстрація">
+                                <input type="submit" name="submit" id="inputFormSubmit" value="Увійти">                                               
+                            </form>
+                        </details><br> 
+                        <details open>
+                            <summary style="font-weight: bold;"><big>Навігація</big> </summary>
+                            <nav>
+                                <ul class="socialList">
+                                    <li> <a href=""> Головна </a> </li>
+                                    <li> <a href=""> Портфоліо </a> </li>
+                                    <li> <a href=""> Блог </a> </li>  
+                                </ul>  
+                            </nav>
+                        </details>
+                    </aside>
+                </section>
+                <section>                                     
+                    <div> 
+                        <h3 >Сціальні мережі:</h3> 
+                        <ul class="socialList">
+                            <li>
+                                <img src="/icons/gmail.ico" alt="GmailIco" width="25" height="25"> 
+                                <a href="https://mail.google.com/mail/u/0/?pc=ru-ha-emea-ua-bk#inbox" target="_blank" title="Написать мне на почту Gmail">
+                                Gmail</a>
+                            </li>
+                            <li> 
+                                <img src="/icons/linkedin.ico" alt="LinkIco" width="25" height="25"> 
+                                <a href="https://www.linkedin.com/in/yshu17/" target="_blank" title="Я в LinkedIn">LinkedIn</a>
+                            </li>
+                            <li>
+                                <img src="/icons/github.ico" alt="GitIco" width="25" height="25">  
+                                <a href="https://github.com/yshu17" target="_blank" title="Mое портфолио на GitHub">GitHub</a>
+                            </li>
+                            <li>
+                                <img src="/icons/telegram.ico" alt="TeleIco" width="25" height="25">  
+                                <a href="https://t.me/yshu17" target="_blank" title="Я в Telegram">Telegram</a>
+                            </li> 
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h3>Мови:</h3> 
+                        <ul class="socialList">
+                            <li>
+                                <img src="/icons/ukraine.ico" alt="UaIco" width="25" height="25">Українська:
+                                <span>C2</span>     
+                            </li>
+                            <li> 
+                                <img src="/icons/usa.ico" alt="USAIco" width="25" height="25">Англійська:
+                                <span>B1</span>
+                            </li>
+                        </ul>
+                    </div>                                     
+                </section>
+                <section>
+                    <div>
+                        <h3>Курси та сертифікати:</h3>
+                        <table cellspacing="5">             
+                            <tr>            
+                                <th>ITVDN<br>Червень 2022</th>   
+                                <th>Udemy<br>Травень 2022</th>
+                            </tr>
+                            <tr>           
+                                <td>
+                                    <a href="https://testprovider.com/ru/search-certificate/tp57454726" style="color: black;"><em>.NET Starter</em></a>
+                                </td>   
+                                <td>
+                                    <a href="" style="color: black;"><em>.NET Developing</em></a>
+                                </td>
+                            </tr>
+                            <tr>            
+                                <td>
+                                    <a href="https://testprovider.com/ru/search-certificate/tp25095150" style="color: black;"><em>.NET Essenctial</em></a>
+                                </td>       
+                            </tr>
+                            <tr>            
+                                <td>
+                                    <a href="https://testprovider.com/ru/search-certificate/tp69552467" style="color: black;"><em>.NET Professional</em></a>
+                                </td>   
+                            </tr>
+                            <tr>            
+                                <td>
+                                    <a href="https://testprovider.com/ru/search-certificate/tp09526430" style="color: black;"><em>Unity Starter</em></a>
+                                </td>   
+                            </tr>
+                        </table><br>
+                    </div>
+                </section>
+            </div>
+            <div class="rightCol">
+               <section>
+                    <div class="infoBlocks">
+                        <h2 class="section-title">Подивиться на мене</h2>
+                        <div style="float:left; margin-right: 25px;">
+                            <img class="mainPhoto" src="/images/67391593.jpg" alt="Фото" title="це я">               
+                        </div>   
+
+                        <span>
+                            <h2>Evgeniy Svyatenko</h2>
+                            <h3>Trainee Web \ .NET  Developer</h3>
+                        </span>
+                        <div>
+                            <table>
+                                <caption style="font-size: large; text-align: start;">Prof Skills</caption>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>HTML,CSS</li>
+                                            <li>QA/QC</li>
+                                            <li>SQL</li>
+                                            <li>Git</li>
+                                            <li>.NET</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>VS/VSCode</li>
+                                            <li>Unity</li>
+                                            <li>Git</li>
+                                            <li>Goal orientation</li>
+                                            <li>Team player</li>
+                                        </ul>
+                                    </td>
+                                </tr> 
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                
+                <section style="clear:both ;">   
+                    <div class="infoBlocks">
+                        <h2 class="section-title" >Мій досвід</h2>
+                        <p>
+                            I have experience in solving small problems in the
+                            basics of programming, creating 2D games in Unity.
+                            Studied programming from the books "G. Schildt. C#
+                            4.0: The Complete Guide", "D. Richter. CLR via C#,
+                            courses on Udemy and other sources. Understanding
+                            and ability to work with Git. Creating and maintaining
+                            tables on the MSQL (T-SQL) server. There is a basic
+                            understanding of QA. I want to learn and improve my
+                            development skills with a team of professionals working
+                            on interesting projects.
+                        </p>
+                    </div>           
+                </section>
+                <section>
+                    <div class="infoBlocks">
+                        <h2 class="section-title">Історія роботи</h2>
+                        <div>   
+                            <span style="font-weight:bold;">STAFF TRAINING INSTRUCTOR</span><br><br>
+                            <span><b><em>McDonald's</em></b></span><br>
+                            <span><b><em>Apr 2018 - present</em></b></span>
+                        </div>
+                        <div>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Developing and providing the training
+                                            forrestaurant employees
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Developing the Check-lists of employees
+                                            performance
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Drafting of the employee learning matrices
+                                        </p>
+                                    </li>                            
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="infoBlocks">   
+                        <h2 class="section-title">Освіта</h2>
+                        <h3>
+                            National Technical University 2016-2020
+                            «Kharikv Polytechnic Institute»
+                        </h3>
+                        <p> 
+                            Bachelor Degree <br>
+                            Program Subjects Area: Electronics. Industrial
+                            electronics.
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <div class="infoBlocks">
+                        <h2 class="section-title">Mої інтереси</h2>
+                        <p>
+                            I play volleyball and
+                            basketball. I love strategies
+                            and watch news and learn
+                            something new in the IT
+                            field
+                        </p>
+                    </div>                   
+                </section>
+            </div>
+        </main>
+        <footer class="footerCol">        
+            <hr id="liniya">
+            <div>                   
+                <h2>Замовляй в мене цей витвір мистецтва :)</h2>
+                <form action="order.html" method="post" autocomplete="on">
+                    <div>
+                        <label class="footerLabels" for="clientName_id">
+                        <span>Ваші данні:</span>
+                            <input type="text" id="clientName_id" name="clientName" placeholder="Сюди писать ім'я">
+                            <input type="email" name="clientEmail" placeholder="А сюди вже пошту" required>
+                        </label>
+                    </div><br>
+                    <div> 
+                        <label class="footerLabels"> 
+                            <span>Оцінка IQ і що від вас чекати:</span> 
+                            <input type="radio" name="clientGender" value="1"> рузкій
+                            <input type="radio" name="clientGender" value="120"> Хто я?
+                            <input type="radio" name="clientGender" value="180"> Слава Україні
+                        </label>
+                    </div><br>
+                    <div>
+                        <label class="footerLabels">
+                            <span>Додаткові послуги:</span>
+                            <input type="checkbox" name="extra" value="adaptive">Адаптивність
+                            <input type="checkbox" name="extra" value="hosting" checked>Хостінг
+                            <input type="checkbox" name="extra" value="support"> Підтримка
+                            <input type="checkbox" name="extra" value="admin"> Адмін панель та права
+                        </label>
+                    </div><br>
+                    <div>
+                        <label class="footerLabels">
+                            <span>Я визначився з сайтом, і це буде:</span>
+                            <select name="type" required> 
+                                <option value="webShop">Магазин</option>
+                                <option value="landing">Лендінг</option>
+                                <option value="CV">Сайт резюме</option>
+                                <option value="">Я не знаю, хелп</option>
+                            </select>
+                        </label>
+                    </div><br>
+                    <div>
+                        <label class="footerLabels">
+                            <span>В тебе вже є ідея та малюнок? Тоді показуй:</span> 
+                            <input type="file" title="Не можу перекласти на українську чомусь" multiple>
+                        </label>
+                    </div><br>
+                    <div>
+                        <label class="footerLabels">
+                            <span>Нууу, розповідай вже, що в тебе в голові)</span> <br>
+                            <textarea name="" id="" cols="30" rows="5" maxlength="120"></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <input class="footerButton" type="submit" value="Надіслати">
+                        <button class="footerButton" name="submit">Все з початку</button>
+                    </div><br>
+                </form>
+            </div>
+            <hr id="liniya">
+            <div id="copyright" >
+                <p>Contacts: admin@mycv.com |
+                Copyright © MyCV.com, 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>

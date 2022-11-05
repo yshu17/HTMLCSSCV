@@ -1,0 +1,243 @@
+body
+{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    margin-inline: 10%;
+    padding-inline: 30px;
+
+    background: rgb(44,49,87);
+    background: linear-gradient(0deg, rgb(125, 130, 165) 0%, rgba(194,194,194,1) 30%, rgb(204, 207, 223) 100%);
+
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 2px;
+
+    min-width: 1000px;
+}
+html
+{
+    background: rgb(255,165,0);
+    background: radial-gradient(circle, rgba(255,165,0,1) 0%, 
+    rgba(255,224,64,1) 0%, 
+    rgba(2,0,36,1) 87%);  
+}
+*{
+    box-sizing: border-box;
+}
+.section-title
+{
+    text-align: center;
+    color: rgb(5, 0, 100);
+    text-shadow: 5px 5px 5px #999;
+}
+.enter-form
+{
+    text-align: start;
+}
+.enter-form>input
+{
+    margin:1%;
+}
+.portfolio-text
+{
+    text-align: center;
+    
+}
+.leftCol
+{
+    margin-left: 3%;
+    float: left;
+    width: 20%;
+    min-width: 210px;
+}
+.rightCol
+{
+    margin-top: 20px;
+    margin-right: 10%;
+    text-align: start;
+    float: right;
+    width: 60%;
+}
+.footerCol
+{ 
+    font-size:17px;
+    clear:both;
+}
+.footerCol>div
+{
+    
+    margin-left: 50px ;
+    clear:both;
+}
+.footerLabels>textarea
+{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 5px;
+}
+.footerButton
+{
+    margin-left: 5px;
+}
+/* ----------------------------------------- */
+.socialList
+{
+    list-style-type: none; 
+    -webkit-padding-start: 0%;
+    margin-left: 5px;
+    font-size: large;
+}
+.socialList>li>img
+{
+    margin-right: 5px;
+    vertical-align:top; 
+}
+.socialList>li>a,span
+{ 
+    line-height: 180%;
+    vertical-align:middle;    
+    color: black;   
+    
+    transition-property: text-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: linear ;
+}
+.socialList>li>a:hover
+{
+    text-shadow: 0px 0px 5px rgba(5, 0, 100, 0.500);
+}
+/* -------------------------------------------- */
+p
+{
+    font-family: Roboto;
+    font-size: large;  
+}
+h1
+{
+    color:rgb(5, 0, 100);
+    text-shadow: 5px 5px 5px #999;
+}
+/* ------------------------------------------ */
+.label-1
+{
+   float: left;
+}
+.label-2
+{
+    float: left ;
+    width: 210px ;
+}
+::selection {
+    color: white;
+    background-color: grey;
+}
+.mainPhoto
+{
+    width: 200px;
+    height: 200px;   
+}
+#copyright
+{
+    font-style: italic;
+   
+    font-size: .8em;    
+    text-align:end;
+    padding-inline: 10px;
+    
+}
+img[src$=".jpg"]
+{ 
+    border: 2px solid  rgb(5, 0, 100);
+    border-radius: 100px; 
+    transform: rotate(10deg);
+    
+}
+.infoBlocks
+{
+    border-style: solid;
+    border-radius: 30px;
+    border-color:gray;
+    border-width: 2px;
+
+    padding-inline: 30px;
+    padding-bottom: 10px;
+
+    margin-bottom: 20px;
+
+    background-color:rgb(215, 215, 215);
+    min-width: 575px;
+    box-shadow: 
+        0 0px 2px rgba(0,0,0,0.12), 
+        0 0px 4px rgba(0,0,0,0.12), 
+        0 0px 8px rgba(0,0,0,0.12), 
+        0 0px 16px rgba(0,0,0,0.12);
+    
+        transition-property: background-color;
+        transition-duration: 0.5s;
+}
+#liniya
+{
+    height: 20px;
+    background-image: linear-gradient(to bottom, #157cc7,#157cc7 50%,#ff0 50%, #ff0);
+}
+
+.infoBlocks:hover
+{
+    background-color: rgb(230, 230, 230);
+}
+address>div>span>span
+{
+    color:rgb(0, 87, 184);;
+    animation-name: backgroundColorAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes backgroundColorAnimation {
+    0% {
+        color: rgb(0, 87, 184);
+    }
+    25% {
+        color: rgb(0, 87, 184);
+    }
+    40% {
+        color: rgb(0, 87, 184);
+    }
+    50% {
+        color: rgb(255, 215, 0);
+    }
+    60% {
+        color: rgb(255, 215, 0);
+    }
+    80% {
+        color: rgb(255, 215, 0);
+    }
+    100% {
+        color: rgb(0, 87, 184);
+    }
+    
+}
+@font-face 
+{     
+    font-family:'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
