@@ -10,11 +10,11 @@ body
     border-style: solid;
     border-radius: 30px;
     border-width: 2px;
-
-    min-width: 1000px;
+    min-width: 950px;
 }
 html
 {
+    min-width: 1000px;
     background: rgb(255,165,0);
     background: radial-gradient(circle, rgba(255,165,0,1) 0%, 
     rgba(255,224,64,1) 0%, 
@@ -174,17 +174,30 @@ img[src$=".jpg"]
         transition-property: background-color;
         transition-duration: 0.5s;
 }
-#liniya
+
+#myNameAndPos
 {
-    height: 20px;
-    background-image: linear-gradient(to bottom, #157cc7,#157cc7 50%,#ff0 50%, #ff0);
+    font-weight: bold;
+    font-size: large;
 }
 
 .infoBlocks:hover
 {
     background-color: rgb(230, 230, 230);
 }
+#liniya
+{
+    height: 20px;
+    background-image: linear-gradient(to bottom, #157cc7,#157cc7 50%,#ff0 50%, #ff0);
+}
 address>div>span>span
+{
+    color:rgb(0, 87, 184);;
+    animation-name: backgroundColorAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+address>div>span>span>a
 {
     color:rgb(0, 87, 184);;
     animation-name: backgroundColorAnimation;
